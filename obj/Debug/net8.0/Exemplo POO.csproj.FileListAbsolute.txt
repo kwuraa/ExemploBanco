@@ -26,3 +26,4 @@
 /Users/kawamura/Documents/Exemplo POO/ExemploBanco/obj/Debug/net8.0/Exemplo POO.pdb
 /Users/kawamura/Documents/Exemplo POO/ExemploBanco/obj/Debug/net8.0/Exemplo POO.genruntimeconfig.cache
 /Users/kawamura/Documents/Exemplo POO/ExemploBanco/obj/Debug/net8.0/ref/Exemplo POO.dll
+/Users/kawamura/Documents/Exemplo POO/ExemploBanco/obj/Debug/net8.0/Exemplo POO.sourcelink.json

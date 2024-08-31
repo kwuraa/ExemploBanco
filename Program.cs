@@ -1,15 +1,12 @@
 ﻿using Exemplo_POO.Models;
 
 
-
+//* ADQUIRINDO AS INFORMAÇÕES DO USUÁRIO
 Console.WriteLine("Digite seu nome: ");
 String nome = Console.ReadLine();
 
 Console.WriteLine("Digite sua idade: ");
 int idade = Convert.ToInt32(Console.ReadLine());
-
-Pessoa pessoa1 = new Pessoa(nome, idade);
-
 
 Console.WriteLine("Digite o ID da sua conta: ");
 int id = Convert.ToInt32(Console.ReadLine());
@@ -17,10 +14,12 @@ int id = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Digite o Valor(R$) que possui em sua conta: ");
 decimal valor = Convert.ToDecimal(Console.ReadLine());
 
+//* INSTANCIANDO OS OBJETOS - PESSOAS E CONTA !
+Pessoa pessoa1 = new Pessoa(nome, idade);
 ContaCorrente c1 = new ContaCorrente(id, valor);
 
 
-
+//? MENU DE OPÇÕES !!!
 bool exibirMenu = true;
 
 while (exibirMenu)
@@ -46,6 +45,7 @@ while (exibirMenu)
       break;
 
     case "3":
+      Console.WriteLine("Informações do Usuario: ");
       Console.WriteLine($"Nome: {nome}");
       Console.WriteLine($"Idade: {idade}");
       Console.WriteLine($"Numero da Conta: {id}");
