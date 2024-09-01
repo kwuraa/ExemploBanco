@@ -6,17 +6,20 @@ using Exemplo_POO.Models;
 
 namespace Exemplo_POO.Models
 {
-    public class ContaCorrente
+    public class ContaCorrente : Conta
     {
 
+        public override void Creditar(decimal valor)
+        {
+            Saldo += valor;
+            Console.WriteLine($" Saldo Disponivel: {Saldo.ToString("C")}");
+        }
         public ContaCorrente(int numeroConta, decimal saldoInicial)
         {
             NumeroConta = numeroConta;
-            Saldo = saldoInicial;
             
         }
         private int NumeroConta { get; set; }
-        private decimal Saldo { get; set; }
 
         public void Sacar(decimal valor)
         {
@@ -24,17 +27,12 @@ namespace Exemplo_POO.Models
             if (Saldo >= valor)
             {
             Saldo -= valor;
-            Console.WriteLine($"Saque de {valor} efetuado com sucesso!!!");
+            Console.WriteLine($"Saque de {valor.ToString("C")} efetuado com sucesso!!!");
             } 
             else 
             {
                 Console.WriteLine("Saldo insuficiente para este valor de saque!");
             }
-        }
-
-        public void ExbirSaldo()
-        {
-            Console.WriteLine($"Saldo Disponivel: {Saldo.ToString("C")}");
         }
 
     }
