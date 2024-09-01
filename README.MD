@@ -13,12 +13,15 @@
 
 <h2>Como executar o projeto </h2>
 
-<p align="justify">Clone o repositório para sua máquina local Abra o projeto no Visual Studio Compile e execute o projeto Siga as instruções do menu para utilizar as funcionalidades do sistema</p>
+<li align="justify">Clone o repositório para sua máquina local Abra o projeto no Visual Studio Compile e execute o projeto 
+<li>Siga as instruções do menu para utilizar as funcionalidades do sistema
 
 <h2>Observações</h2>
 
+<div align="justify">
 <li>O projeto utiliza a biblioteca Exemplo_POO.Models para as classes Pessoa e ContaCorrente. 
-<li align="justify">O sistema ainda não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. 
+<li>O sistema ainda não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. 
 <li>O projeto é apenas um exemplo e não deve ser utilizado em produção sem a devida adaptação e teste.
+</div>
 
 --Kawamura--
