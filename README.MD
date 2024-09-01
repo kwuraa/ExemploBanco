@@ -2,7 +2,7 @@
 
 <h1 align="center">Projeto de Conta Corrente em C#</h1>
 
-<p>Este projeto é um exemplo de implementação de uma conta corrente em C# utilizando conceitos de Programação Orientada a Objetos (POO). O sistema permite que o usuário crie uma conta, visualize seu saldo, faça depósitos e saques, além de exibir informações do usuário.</p>
+<p align="justify">Este projeto é um exemplo de implementação de uma conta corrente em C# utilizando conceitos de Programação Orientada a Objetos (POO). O sistema permite que o usuário crie uma conta, visualize seu saldo, faça depósitos e saques, além de exibir informações do usuário.</p>
 
 <h2>Funcionalidades</h2>
 
@@ -18,5 +18,7 @@ Clone o repositório para sua máquina local Abra o projeto no Visual Studio Com
 <h2>Observações</h2>
 
 <li>O projeto utiliza a biblioteca Exemplo_POO.Models para as classes Pessoa e ContaCorrente. 
-<li>O sistema não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. 
+<li aling="justify">O sistema ainda não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. 
 <li>O projeto é apenas um exemplo e não deve ser utilizado em produção sem a devida adaptação e teste.
+
+--Kawamura--
