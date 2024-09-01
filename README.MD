@@ -17,4 +17,6 @@ Clone o repositório para sua máquina local Abra o projeto no Visual Studio Com
 
 <h2>Observações</h2>
 
-<p>O projeto utiliza a biblioteca Exemplo_POO.Models para as classes Pessoa e ContaCorrente. O sistema não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. O projeto é apenas um exemplo e não deve ser utilizado em produção sem a devida adaptação e teste.<p>
+<li>O projeto utiliza a biblioteca Exemplo_POO.Models para as classes Pessoa e ContaCorrente. 
+<li>O sistema não possui validação de entrada de dados, portanto, é importante digitar os valores corretamente para evitar erros. 
+<li>O projeto é apenas um exemplo e não deve ser utilizado em produção sem a devida adaptação e teste.
