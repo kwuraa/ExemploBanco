@@ -1,6 +1,6 @@
 **_ README _**
 
-<h1 align="center">Projeto de Conta Corrente em C#</h1>
+<h1 align="center">Projeto de estudo --- Conta Corrente em C#</h1>
 
 <p align="justify">Este projeto é um exemplo de implementação de uma conta corrente em C# utilizando conceitos de Programação Orientada a Objetos (POO). O sistema permite que o usuário crie uma conta, visualize seu saldo, faça depósitos e saques, além de exibir informações do usuário.</p>
 
