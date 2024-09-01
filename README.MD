@@ -1,12 +1,17 @@
 **_ README _**
 
-<h1 aling="center">Projeto de Conta Corrente em C#</h1>
+<h1 align="center">Projeto de Conta Corrente em C#</h1>
 
 <p>Este projeto é um exemplo de implementação de uma conta corrente em C# utilizando conceitos de Programação Orientada a Objetos (POO). O sistema permite que o usuário crie uma conta, visualize seu saldo, faça depósitos e saques, além de exibir informações do usuário.</p>
 
 <h2>Funcionalidades</h2>
 
-<p>Criação de conta corrente com ID e saldo inicial Visualização do saldo atual Depósito de valores na conta Saque de valores da conta Exibição de informações do usuário (nome, idade e número da conta) Como executar o projeto
+<li>Criação de conta corrente com ID e saldo inicial 
+<li>Visualização do saldo atual 
+<li>Depósito de valores na conta Saque de valores da conta 
+<li>Exibição de informações do usuário (nome, idade e número da conta)
+
+<h2>Como executar o projeto </h2>
 
 Clone o repositório para sua máquina local Abra o projeto no Visual Studio Compile e execute o projeto Siga as instruções do menu para utilizar as funcionalidades do sistema</p>
 
